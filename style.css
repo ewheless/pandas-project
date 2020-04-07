@@ -1,0 +1,122 @@
+/*data-article/styles*/
+
+body {
+    font-family: "Lato", sans-serif, bold;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.article-hed {
+    max-width: 720px;
+    margin: auto;
+}
+
+.hed {
+    font-size: 36px;
+    /*font-weight: 400;*/
+    text-align: center;
+}
+
+.dek {
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333;
+}
+
+.byline {
+    font-family: "Lato";
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #666;
+    padding: 0 10px 0 0;
+}
+
+.byline-name {
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 60px;
+}
+
+.pub-date {
+    font-weight: 700;
+    padding: 0 10px 0 0;
+}
+
+.article-photo {
+    max-width: 720px;
+    margin: 25px auto 25px auto;
+}
+
+.photo {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo-caption {
+    margin: 0;
+    text-align: center;
+    font-family: "Lato";
+    font-size: 13px;
+    color: #333;
+}
+
+.article-copy {
+    max-width: 600px;
+    margin: 25px auto 25px auto;
+}
+
+.copy {
+    margin: 0 auto 20px auto;
+    color: #222;
+}
+
+.row {
+    display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 5px;
+}
+
+.iframe {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.related-stories {
+    max-width: 600px;
+    margin: 20px auto 20px auto;
+    font-weight: bold;
+}
+
+.related-stories ul li {
+    margin: 0 0 15px 0;
+}
+
+.read-more {
+    font-size: 24px;
+}
+
+.blockquote {
+    float: left;
+    font-style: italic;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
